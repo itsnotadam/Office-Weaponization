@@ -6,14 +6,14 @@
 
 | Section | Summary | Subsections |
 |---|---|---|
-| [1️⃣ Introduction](#introduction-the-enduring-threat-of-malicious-documents) | Why Office docs remain a top attack vector | The Enduring Threat of Malicious Documents |
-| [2️⃣ Lab Setup](#lab-setup-creating-a-safe-environment) | Safe, repeatable VM lab & tooling | Creating a Safe Environment |
-| [3️⃣ VBA Macros](#attack-vector-1-vba-macros---the-classic-approach) | Macro-based stagers & evasion | First Macro · Payload Stager · Obfuscation · AMSI notes |
-| [4️⃣ DDE Exploits](#attack-vector-2-dde-exploits---the-no-macro-method) | Legacy "no-macro" field attacks | DDE overview · DDE payload example · Detection |
-| [5️⃣ OLE Embedding](#attack-vector-3-ole-object-embedding---the-trojan-horse) | Embedded-object (icon) trojans | OLE overview · Embed recipe · Detection |
-| [6️⃣ Attack Flow](#putting-it-all-together-a-simulated-attack-scenario) | Example: phishing → execution (illustrative) | Lure · Execution · Suggested detection points |
-| [7️⃣ Conclusion](#conclusion-and-key-takeaways) | Key takeaways for defenders & testers | Defensive checklist · Red-team notes |
-| [8️⃣ Further Reading](#further-reading-and-tools) | Links to MITRE, tools, blogs | MITRE ATT&CK · oletools · Sysmon · Blogs |
+| **1️⃣ Introduction** | Why Office docs remain a top attack vector | The Enduring Threat of Malicious Documents |
+| **2️⃣ Lab Setup** | Safe, repeatable VM lab & tooling | Creating a Safe Environment |
+| **3️⃣ VBA Macros** | Macro-based stagers & evasion | First Macro · Payload Stager · Obfuscation · AMSI notes |
+| **4️⃣ DDE Exploits** | Legacy "no-macro" field attacks | DDE overview · DDE payload example · Detection |
+| **5️⃣ OLE Embedding** | Embedded-object (icon) trojans | OLE overview · Embed recipe · Detection |
+| **6️⃣ Attack Flow** | Example: phishing → execution (illustrative) | Lure · Execution · Suggested detection points |
+| **7️⃣ Conclusion** | Key takeaways for defenders & testers | Defensive checklist · Red-team notes |
+| **8️⃣ Further Reading** | Links to MITRE, tools, blogs | MITRE ATT&CK · oletools · Sysmon · Blogs |
 
 **Scope & Limitations**  
 > The "Attack Flow" is **illustrative only**. It's a compact example of how a phishing document can lead to execution and what telemetry to collect. This README is *not* a comprehensive threat model. Use it as a learning baseline.
