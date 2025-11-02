@@ -305,5 +305,5 @@ This guide provides the foundational knowledge of *how* these attacks work. The 
     *   [**oletools**](https://github.com/decalage2/oletools): A suite of Python tools for analyzing MS OLE2 files (the foundation of modern Office documents). `olevba` is a must-have.  
     *   [**Sysmon**](https://learn.microsoft.com/sysinternals/downloads/sysmon): A Windows system service that provides detailed logging about process creation, network connections, and file changes. 
 *   **Blogs and Research:**  
-    *   [Red Canary Blog](https://redcanary.com/blog/): Excellent source for real-world threat intelligence and TTP analysis. 📰  
-    *   [The DFIR Report](https://thedfirreport.com/): In-depth reports on real intrusions, often starting with malicious documents. 🔍
+    *   [Red Canary Blog](https://redcanary.com/blog/): Excellent source for real-world threat intelligence and TTP analysis. 
+    *   [The DFIR Report](https://thedfirreport.com/): In-depth reports on real intrusions, often starting with malicious documents.
