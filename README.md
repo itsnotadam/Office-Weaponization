@@ -24,7 +24,7 @@
 
 Microsoft Office files (Word, Excel, PowerPoint) are everywhere and that’s exactly why attackers love them. People trust these files, so threat actors hide malicious tricks in features like macros, DDE links, and embedded objects to run code on a victim’s machine. That initial foothold can lead to ransomware, data theft, or corporate espionage.
 
-If you work in security — red, blue, or purple — you can’t ignore this stuff. Knowing how attackers build these documents helps you tune detections, harden systems, and teach users what to watch for.
+If you work in security (red, blue, or purple) you can’t ignore this stuff. Knowing how attackers build these documents helps you tune detections, harden systems, and teach users what to watch for.
 
 This guide walks through document-based attacks from first principles to advanced evasion techniques.
 
@@ -288,10 +288,10 @@ Office document attacks are a persistent and evolving threat. While the methods 
 
 *   **For Testers (Red Team):** Your job is to find the gaps in these layers.  
     *   Stay current on new evasion techniques.  
-    *   Understand how detection works so you can bypass it (ethically, in lab). 
+    *   Understand how detection works so you can bypass it. 
     *   Focus on realistic social engineering lures. 
 
-This guide provides the foundational knowledge of *how* these attacks work. The next step is to use this knowledge to test your own environment, find weaknesses, and build a more resilient defense.
+This guide provides the foundational knowledge of *how* these attacks work. The next step is to use this knowledge to test your own environment, find weaknesses, and build a more resilient methods.
 
 <br>
 
